@@ -12,3 +12,10 @@ The note information is stored in the browser, so when you reload the page the t
   - delete
   
 "Done" changes the look of the note - changes the background color to gray and adds a checkbox in the upper right corner, removing which you can cancel the status of "done" and the status of the note will again "open".
+
+"Edit" opens a dialog where you can make changes to the note.
+
+"Delete" deletes the note.
+
+6. Search in to-do list.
+The search is performed dynamically as you enter the title, change status and priority using the text box and the two drop-down lists on the top of the page.
