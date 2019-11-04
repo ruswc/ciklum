@@ -19,3 +19,4 @@ The note information is stored in the browser, so when you reload the page the t
 
 6. Search in to-do list.
 The search is performed dynamically as you enter the title, change status and priority using the text box and the two drop-down lists on the top of the page.
+To reset the filter data, reload the page.
