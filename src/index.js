@@ -84,6 +84,7 @@ let createTodo = function () {
     const status = document.createElement("div"),
         statusHtml = "<div class='status'>...<div class='actionlist'><ul><li id='done' onclick='done(this)'>done</li><li id='edit' onclick='editTodo(this)'>edit</li><li id='delete' onclick='deleteTask(this)'>delete</li></ul></div></div>";
     status.innerHTML = statusHtml;
+    status.setAttribute('onclick','void(0)');
 
     footer.append(status);
 
