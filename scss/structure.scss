@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  @include flex(column, center, center);
+  @include flex(column, flex-start, center);
   flex-wrap: nowrap;
 }
 
